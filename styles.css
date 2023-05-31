@@ -70,3 +70,75 @@ img {
     font-weight: 800;
     color: #1f2937;
 }
+
+.info_boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.subtext-1,
+.subtext-2,
+.subtext-3,
+.subtext-4 {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 200;
+    margin-top: 5px;
+}
+
+.important-quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 250;
+}
+
+.important-person {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    font-style: normal;
+    font-weight: 650;
+    color: black
+}
+
+.container-3 {
+    display: flex;
+    background-color: #e5e7eb;
+}
+
+.container-4 {
+    background-color: #f9faf8;
+    display: flex;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-header {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-bottom: 6px;
+}
+
+.header-bottom-text {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+button.sign-up-2 {
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+}
